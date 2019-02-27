@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component:grid xmlns:component="http://protorype.sailpoint.com/grid"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://protorype.sailpoint.com/grid ./schemagen/xml-grid-component.xsd">
+    <clickListenerClassName>com.sailpoint.prototype.vaadin.listeners.GridItemClickListenerDisplayNameNotification</clickListenerClassName>
+    <columns>
+        <column caption="First name" property="firstName"/>
+        <column caption="Last name" property="lastName"/>
+        <column caption="Display name" property="displayName"/>
+        <column caption="Email" property="email"/>
+    </columns>
+</component:grid>
