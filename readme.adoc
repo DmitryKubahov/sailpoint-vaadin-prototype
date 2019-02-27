@@ -1,0 +1,15 @@
+= SailPoint Prototype Application
+
+Contains several new ideas for IdentityIQ
+
+== Quick start
+You need:
+
+. Set current setting for data base connection in 'application.yml'
+. Run
++
+----
+mvn jetty:run
+----
+
+
