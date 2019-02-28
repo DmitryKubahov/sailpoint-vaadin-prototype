@@ -1,0 +1,8 @@
+@startuml
+control TaskExecutor
+database SailPoint
+
+TaskExecutor -> SailPoint : check async task
+SailPoint -> TaskExecutor : async tasks to execute
+TaskExecutor -> SailPoint : execute task and save result
+@enduml

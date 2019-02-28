@@ -1,0 +1,4 @@
+@startuml
+SailPoint -> TaskStorage : save task
+TaskStorage -> SailPoint: respone (ok, failed...)
+@enduml
